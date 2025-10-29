@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# pytest cache
+.pytest_cache/
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Files created by the repo operations
+/.pytest_cache/
+
+# Keep test artifacts out
+tests/__pycache__/
+src/__pycache__/
