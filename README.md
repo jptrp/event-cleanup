@@ -1,5 +1,7 @@
 # Event Cleanup: Dedupe & Compaction
 
+[![CI](https://github.com/jptrp/event-cleanup/actions/workflows/python-tests.yml/badge.svg)](https://github.com/jptrp/event-cleanup/actions)
+
 **Goal:** Given a list (stream batch) of event objects, produce a cleaned, *idempotent* list that:
 - Drops malformed events
 - De-duplicates by `event_id`
