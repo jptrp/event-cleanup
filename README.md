@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/jptrp/event-cleanup/actions/workflows/python-tests.yml/badge.svg)](https://github.com/jptrp/event-cleanup/actions)
 
+See the QA handoff document in `docs/QA_Handoff.md` for a runnable checklist and examples.
+
 **Goal:** Given a list (stream batch) of event objects, produce a cleaned, *idempotent* list that:
 - Drops malformed events
 - De-duplicates by `event_id`
