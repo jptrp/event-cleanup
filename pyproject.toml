@@ -1,0 +1,10 @@
+[project]
+name = "event-cleanup"
+version = "0.1.0"
+description = "Event dedupe & compaction: robust stream cleanup with idempotency and malformed handling"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
